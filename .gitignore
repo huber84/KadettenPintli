@@ -1,0 +1,28 @@
+build
+dist
+node_modules
+npm-debug.log
+*~
+*.swp
+*.orig
+venv
+__pycache__/
+*.swo
+$Recycle.Bin/
+.idea/
+
+# eclipse
+.project
+.pydevproject
+
+# user database
+/backend/data/users.db
+
+# nose (python testing)
+.noseids
+
+# logs of tools
+tools/*.log
+
+# VScode Local history plugin
+.history
