@@ -64,10 +64,26 @@ body {
   }
   
   .site-footer {
-    background: #222;
-    color: #fff;
+    background-color: #222;
+    color: #eee;
+    padding: 1.5rem 0;
     text-align: center;
-    padding: 20px;
+    font-size: 0.9rem;
+    width: 100%;
+    margin-top: auto; /* klebt unten */
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .site-footer .divider {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 1rem auto;
+    width: 60%;
+  }
+  
+  .site-footer .version {
+    font-size: 0.8rem;
+    color: #bbb;
   }
   
   .map-wrapper {

@@ -5,6 +5,7 @@
     "description": "Kadetten-Pintli Thun – Website für das gemütliche Beisammensein beim Ausschiesset.",
     "scripts": {
       "dev": "vite",
+      "prebuild": "node scripts/set-version.js",
       "build": "vite build",
       "preview": "vite preview"
     },
