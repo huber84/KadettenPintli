@@ -70,3 +70,22 @@ body {
     padding: 20px;
   }
   
+  .map-wrapper {
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .leaflet-container {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .map-section h3 {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
